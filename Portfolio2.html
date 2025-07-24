@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: # black;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: black;
+            color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            color: white;
+            padding-bottom: 10px;
+        }
+
+        .analytics-data {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .data-item {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .portfolio-gallery, .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .contact-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .analytics-data {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        img {
+                width: 200px;
+                border-radius: 100px;
+                float:left;
+                margin-right: 50px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>kevin</h1>
+        <p> Data scientist | Photographer | Videographer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>            Welcome! I am a web developer, data scientist, photographer, and technology enthusiast. I craft intuitive digital experiences, analyze data-driven insights, capture breathtaking moments, and explore the cutting edge of innovation. My work blends logic with creativity, precision with artistry, and technology with storytelling. Dive into my world and discover how passion meets purpose.
+        </p>
+    </section>
+
+    <section id="analytics">
+        <h2>Analytics</h2>
+        <div class="analytics-data">
+            <div class="data-item"><h3>>10 posts</h3><p>Instagram engagments</p></div>
+            <div class="data-item"><h3>>1500</h3><p>Followers</p></div>
+            <div class="data-item"><h3>>100</h3><p>Posts</p></div>
+            <div class="data-item"><h3>9.2%</h3><p>Growth Rate</p></div>
+        </div>
+    </section>
+
+    <section id="Sample photos">
+        <h2>Profile picture</h2>
+        <div class="portfolio-gallery">
+            <img src="images/1000097437.jpg" alt="an image of kevin">
+            <p>Web developer</p>
+            <p>Data scientist</p>
+            <p>Photographer</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>more info</h2>
+        <div class="testimonial"><h3>Data science</h3><p>I am currently a student persuing Bachelor of science in Applied Statistics and Data Science at the Cooperative University of Kenya.</p></div>
+        <div class="testimonial">
+            <h3>Web Development</h3>
+            <p>
+            Elevate your online presence with expertly crafted, responsive, and user-friendly websites tailored to your unique needs. I specialize in delivering modern web solutions that combine functionality, aesthetics, and performance. For professional web development services or to discuss your next project, please reach out using the contact information below.
+            </p>
+            <h4>summary</h4>
+            <p><email>kevinrotich9405@gmail.com</email></p>
+            <p>phone <email>0114 092 922</email></p>
+            <h4>Skills</h4>
+            <p>HTML,Sql, JavaScript, Python, Data Analysis, Machine Learning,tech enthusiast</p>
+            <h4>Education</h4>
+            <p>Bachelor of Science in Applied Statistics and Data Science, Cooperative University of Kenya</p>
+            <p>Learnt the basic skills required in the field of Mathematics & Statistics, Data Science,machine learning,Artificial Inteligence.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch with me</h2>
+        <p>Email: <a href="mailto:kevinrotich9405@gmail.com">kevinrotich9405@gmail.com</a></p>
+        <p>Phone: 0114 092 922</p>
+        <div class="contact-links">
+            <a href="#">LinkedIn</a><p>immskevin</p>
+            <a href="#">Instagram</a><p>kevy.0</p>
+            <a href="#">Facebook</a><p>Kevin Kipkemoi Rotich</p>
+        </div>
+    </section>
+</body>
+</html>
